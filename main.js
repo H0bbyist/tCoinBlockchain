@@ -50,11 +50,11 @@ class Blockchain {
     }
 }
 
-let gCoin = new Blockchain();
-gCoin.addBlock(new Block(1, "10/07/2017", { amount: 4}));
-gCoin.addBlock(new Block(2, "12/07/2017", { amount: 20}));
+let tCoin = new Blockchain();
+tCoin.addBlock(new Block(1, "10/07/2017", { amount: 4}));
+tCoin.addBlock(new Block(2, "12/07/2017", { amount: 20}));
 
 
-console.log('Is blockchain valid? ' + gCoin.isChainValid());
-console.log(JSON.stringify(gCoin, null, 4));
+console.log('Is blockchain valid? ' + tCoin.isChainValid());
+console.log(JSON.stringify(tCoin, null, 4));
 
